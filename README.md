@@ -57,5 +57,5 @@ $$
 ### Third-Party Software & Attribution
 This project builds upon and benchmarks against the following excellent open-source work:
 
-- **[libordpat](https://github.com/berger-s/libordpat)**: Canonical reference implementation for ordinal pattern extraction by Sebastian Berger, used under the BSD 3-Clause License.
+- **[libordpat](https://github.com/seb-berger/libordpat)**: Canonical reference implementation for ordinal pattern extraction by Sebastian Berger, used under the BSD 3-Clause License.
 - **[Google Highway](https://github.com/google/highway)**: Efficient and portable SIMD C++ library by Google LLC, used under the Apache 2.0 / BSD 3-Clause License.
