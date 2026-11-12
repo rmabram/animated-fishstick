@@ -1,5 +1,3 @@
-# animated-fishstick
-
 # vlibordpat: High-Performance SIMD Ordinal Pattern Extraction
 
 > **NOTE**: This repository serves as a public overview of a private project. The source code, algorithms, and implementation details are maintained in a separate, closed repository. **For access to the source code, please see the [Source Code Access](#-source-code-access) section below.**
