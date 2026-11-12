@@ -22,13 +22,13 @@ The private repository includes automated benchmark runners that evaluate perfor
 
 | Single-Precision (`float`) | Double-Precision (`double`) |
 | :---: | :---: |
-| ![x86-64 Float](docs/images/figure_avx2_float.png) | ![x86-64 Double](docs/images/figure_avx2_double.png) |
+| <img src="docs/images/figure_avx2_float.png" alt="x86-64 Float" style="background-color:#111827; padding:8px; border-radius:10px;" /> | <img src="docs/images/figure_avx2_double.png" alt="x86-64 Double" style="background-color:#111827; padding:8px; border-radius:10px;" /> |
 
 ### AArch64 Architecture
 
 | Single-Precision (`float`) | Double-Precision (`double`) |
 | :---: | :---: |
-| ![AArch64 Float](docs/images/figure_arm_float.png) | ![AArch64 Double](docs/images/figure_arm_double.png) |
+| <img src="docs/images/figure_arm_float.png" alt="AArch64 Float" style="background-color:#111827; padding:8px; border-radius:10px;" /> | <img src="docs/images/figure_arm_double.png" alt="AArch64 Double" style="background-color:#111827; padding:8px; border-radius:10px;" /> |
 
 ---
 
