@@ -30,18 +30,15 @@ The private repository includes automated benchmark runners that evaluate perfor
 
 ---
 
-## 2. Mathematical Justification of $m \le 12$
+## 2. Mathematical Justification of Supported Pattern Orders
 
-`vlibordpat` explicitly bounds supported pattern orders to $m \in [2..12]$ based on strict factoradic representation limits:
+`vlibordpat` supports orders $m \in \{2,\ldots,12\}$, based on strict factoradic representation limits.
 
 ### Factoradic Representation & 32-bit Integer Limits
-An ordinal permutation of order $m$ represents one of $m!$ states:
-$$
-\begin{aligned}
-12! &= 479{,}001{,}600 < 2^{32} - 1 = 4{,}294{,}967{,}295 \\
-13! &= 6{,}227{,}020{,}800 > 2^{32} - 1
-\end{aligned}
-$$
+An ordinal permutation of order $m$ represents one of $m!$ states. The limit is shown by the compact inequality:
+
+$$12! = 479{,}001{,}600 < 2^{32} - 1 = 4{,}294{,}967{,}295 < 13! = 6{,}227{,}020{,}800$$
+
 - For all $m \le 12$, both intermediate rank multipliers and final ordinal codes fit losslessly into compact **32-bit unsigned integer registers** (`uint32_t`).
 - Supporting $m \ge 13$ necessitates 64-bit multi-word arithmetic (`FactorialWeights64`), halving SIMD vector register density, doubling memory traffic, and severely degrading hardware cache performance.
 
